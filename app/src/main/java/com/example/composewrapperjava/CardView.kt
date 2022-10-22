@@ -24,7 +24,7 @@ fun CardView(
     val context = LocalContext.current
     Card(
         modifier = Modifier
-            .padding(1.dp, 1.dp)
+            .padding(2.dp, 1.dp)
             .width(200.dp)
             //.clickable { onCardButtonClicked.invoke() }
             .height(120.dp),
